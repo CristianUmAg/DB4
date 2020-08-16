@@ -1,0 +1,34 @@
+.jumbotron {
+  background-color: #1496dc;
+  color: #eefff2;
+}
+
+.btn {
+  background-color: #ffc21d;
+  color: #393939;
+}
+
+.btn-primary {
+  border-color: #393939;
+}
+
+.tarjeta {
+  margin: 10px;
+}
+
+footer {
+  background-color: #1496dc;
+  color: #eefff2;
+  padding: 10px 10px 0 10px;
+  margin-top: 15px;
+}
+
+a {
+  color: #eefff2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffc21d;
+  text-decoration: none;
+}
