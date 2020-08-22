@@ -1,6 +1,7 @@
 .jumbotron {
   background-color: #1496dc;
   color: #eefff2;
+  margin-top: 55px;
 }
 
 .btn {
@@ -31,4 +32,8 @@ a {
 a:hover {
   color: #ffc21d;
   text-decoration: none;
+}
+
+nav a {
+  color: #393939;
 }
