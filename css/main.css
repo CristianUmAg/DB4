@@ -37,3 +37,7 @@ a:hover {
 nav a {
   color: #393939;
 }
+
+.footer-address-icon {
+  padding-right: 10px;
+}
