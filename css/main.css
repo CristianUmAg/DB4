@@ -61,3 +61,8 @@ textarea {
 img {
   padding: 10px;
 }
+
+.fin {
+  font-weight: bolder;
+  color: #393939;
+}
