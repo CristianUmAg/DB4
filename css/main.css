@@ -13,6 +13,18 @@
   border-color: #393939;
 }
 
+.btn-outline-primary {
+  background-color: #eefff2;
+  border-color: #393939;
+  color: #393939;
+}
+
+.btn-outline-primary:hover {
+  background-color: #ffc21d;
+  border-color: #393939;
+  color: #eefff2;
+}
+
 .tarjeta {
   margin: 10px;
 }
@@ -40,4 +52,8 @@ nav a {
 
 .footer-address-icon {
   padding-right: 10px;
+}
+
+textarea {
+  resize: none;
 }

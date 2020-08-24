@@ -4,28 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet"
+        href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet"
+        href="css/main.css">
+  <link rel="stylesheet"
+        href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 
   <title>Servicio Social DB4</title>
 </head>
 <body>
 
 <nav class="navbar navbar-expand-md  navbar-expand-xl navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="./index.html">Servicio Social ENP 6</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand"
+     href="./index.html">Servicio Social ENP 6</a>
+  <button class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse"
+       id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
-      <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
-      <li class="nav-item active"><a class="nav-link" href="#">Cuestionario de Servicio</a></li>
-      <li class="nav-item"><a class="nav-link" href="./terms.html">Tramites</a></li>
+      <li class="nav-item"><a class="nav-link"
+                              href="./index.html">Inicio</a></li>
+      <li class="nav-item"><a class="nav-link"
+                              href="./about.html">Nosotros</a></li>
+      <li class="nav-item active"><a class="nav-link"
+                                     href="#">Cuestionario de Servicio</a></li>
+      <li class="nav-item"><a class="nav-link"
+                              href="./terms.html">Tramites</a></li>
     </ul>
   </div>
 </nav>
@@ -41,58 +56,140 @@
 
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item" aria-current="page"><a href="./index.html">Inicio</a></li>
-      <li class="breadcrumb-item" aria-current="page"><a href="./about.html">Nosotros</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Cuestionario de Servicio</li>
+      <li class="breadcrumb-item"
+          aria-current="page"><a href="./index.html">Inicio</a></li>
+      <li class="breadcrumb-item active"
+          aria-current="page">Cuestionario de Servicio
+      </li>
     </ol>
   </nav>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor faucibus nunc aliquet aliquet. Sed non quam sed ipsum aliquet
-     faucibus. Cras accumsan sem luctus neque volutpat, nec tincidunt tellus sollicitudin. Duis lectus felis, congue a risus tincidunt,
-     maximus malesuada ligula. Duis porta sagittis augue blandit imperdiet. In mollis erat quam, ac gravida leo vulputate nec. Praesent
-     tristique massa efficitur, convallis justo eu, finibus orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-     cubilia curae; Sed eget est finibus, convallis mauris sit amet, maximus velit. Integer non est quam. Ut bibendum mauris sit amet metus
-     faucibus, eu pellentesque orci condimentum. Proin dictum, leo in sollicitudin bibendum, orci nibh scelerisque lectus, sed lobortis dui
-     risus eu erat.
+  <form>
+    <div class="form-row">
+      <div class="form-group col-xs-12 col-sm-12 col-md-4 col-xl-4">
+        <label for="nombre">Nombre</label>
+        <input type="text"
+               class="form-control"
+               id="nombre"
+               placeholder="Ingrese su Nombre">
+      </div>
+      <div class="form-group col-xs-12 col-sm-12 col-md-4 col-xl-4">
+        <label for="paterno">Apellido Paterno</label>
+        <input type="text"
+               class="form-control"
+               id="paterno"
+               placeholder="Ingrese su Apellido Paterno">
+      </div>
+      <div class="form-group col-xs-12 col-sm-12 col-md-4 col-xl-4">
+        <label for="materno">Apellido Materno</label>
+        <input type="text"
+               class="form-control"
+               id="materno"
+               placeholder="Ingrese su Apellido Materno">
+      </div>
+      <div class="form-group col-xs-12 col-sm-12 col-md-8 col-xl-8">
+        <label for="email">Correo</label>
+        <input type="email"
+               class="form-control"
+               id="email"
+               placeholder="Ingrese su Email">
+      </div>
+      <div class="form-group col-xs-12 col-sm-12 col-md-4 col-xl-4">
+        <label for="plantel">Plantel</label>
+        <select id="plantel"
+                class="form-control">
+          <optgroup label="Prepas">
+            <option>Escuela Nacional Preparatoria 1</option>
+            <option>Escuela Nacional Preparatoria 2</option>
+            <option>Escuela Nacional Preparatoria 3</option>
+            <option>Escuela Nacional Preparatoria 4</option>
+            <option>Escuela Nacional Preparatoria 5</option>
+            <option>Escuela Nacional Preparatoria 6</option>
+            <option>Escuela Nacional Preparatoria 7</option>
+            <option>Escuela Nacional Preparatoria 8</option>
+            <option>Escuela Nacional Preparatoria 9</option>
+          </optgroup>
+          <optgroup label="Facultades">
+            <option>Facultad de Arquitectura</option>
+            <option>Facultad de Artes y Diseño</option>
+            <option>Facultad de Ciencias</option>
+            <option>Facultad de Ciencias Políticas y Sociales</option>
+            <option>Facultad de Contaduría y Administración</option>
+            <option>Facultad de Derecho</option>
+            <option>Facultad de Economía</option>
+            <option>Facultad de Filosofía y Letras</option>
+            <option>Facultad de Ingeniería</option>
+            <option>Facultad de Medicina</option>
+            <option>Facultad de Medicina Veterinaria y Zootecnia</option>
+            <option>Facultad de Música</option>
+            <option>Facultad de Odontología</option>
+            <option>Facultad de Psicología</option>
+            <option>Facultad de Química</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="form-group col-xs-12 col-sm-12 col-md-4 col-xl-4">
+        <label for="ete">Estudio Técnico Especializado</label>
+        <select id="ete"
+                class="form-control">
+          <option>Técnico en Agencia de Viajes y Hotelería</option>
+          <option>Técnico Auxiliar Bancario</option>
+          <option>Técnico en Computación</option>
+          <option>Técnico Auxiliar en Contabilidad</option>
+          <option>Técnico Auxiliar en Dibujo Arquitectónico</option>
+          <option>Técnico en la Enseñanza de Inglés</option>
+          <option>Técnico Auxiliar en Fotógrafo, Laboratorista y Prensa</option>
+          <option>Técnico en Histopatología</option>
+          <option>Técnico en Laboratorista Químico</option>
+          <option>Técnico Auxiliar Museógrafo Restaurador</option>
+          <option>Técnico Auxiliar Nutriólogo</option>
+        </select>
+      </div>
+      <div class="form-group col-xs-12 col-sm-12 col-md-4 col-xl-4">
+        <label for="telefono">Telefono</label>
+        <input type="number"
+               class="form-control"
+               id="telefono"
+               placeholder="Ingrese su Teléfono">
+      </div>
+      <div class="form-group col-xs-12 col-sm-12 col-md-4 col-xl-4">
+        <label for="edad">Edad</label>
+        <input type="number"
+               class="form-control"
+               id="edad"
+               min="15"
+               max="26"
+               placeholder="Ingrese su Teléfono">
+      </div>
+      <div class="form-group col-xs-12 col-sm-12 col-md-6 col-xl-6">
+        <label for="propuesta">Expectativas de Servico</label>
+        <textarea id="propuesta"
+                  class="form-control"
+                  rows="5"
+                  placeholder="Escribe un comentario breve acerca de tus expectativas para el servico de tu ETE"></textarea>
+      </div>
+      <div class="form-group col-xs-12 col-sm-12 col-md-6 col-xl-6">
+        <label for="comentario">Comentario</label>
+        <textarea id="comentario"
+                  class="form-control"
+                  rows="5"
+                  placeholder="Dejanos un comentario acerca de tu servico"></textarea>
+      </div>
+      <div class="form-group col-xs-12 col-sm-12 col-md-12 col-xl-12">
+        <div class="form-check">
+          <input class="form-check-input"
+                 type="checkbox"
+                 id="gridCheck">
+          <label class="form-check-label"
+                 for="gridCheck">Quiero que me contacten y así poder comenzar con los tramites de mi Servicio Social en la ENP 6 :))</label>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-outline-primary"
+            type="submit">Enviar
+    </button>
+  </form>
 
-     Vestibulum molestie urna mi, id maximus felis viverra eget. Curabitur in convallis leo. Aenean ultrices justo at eros porta mollis.
-     Aenean congue tristique tempus. Etiam vel mollis nulla. Phasellus et nulla neque. Proin mattis condimentum hendrerit. Nam tempor vitae
-     velit in convallis. Fusce imperdiet nibh id ante pharetra, in convallis purus varius. Maecenas vitae porttitor arcu. In quis ex eu
-     ipsum pretium tempus molestie a ligula. Curabitur mattis lobortis lobortis. Sed aliquet mi nec sodales accumsan. Praesent vel diam
-     turpis. Nulla pharetra velit eget lacus imperdiet egestas. Aliquam tincidunt velit ac sodales efficitur.
-
-     Cras sit amet tempor nisl, non tempor ligula. Pellentesque a elementum metus, sed tempus sapien. Ut accumsan mollis leo, ac feugiat
-     urna. Sed aliquet dolor ligula, at commodo orci pellentesque at. Proin feugiat at purus nec consectetur. Nullam tincidunt rhoncus
-     libero, nec commodo tortor iaculis vitae. Vivamus pharetra risus nibh, sit amet tincidunt quam fringilla ac. In lectus erat, porta et
-     ex id, viverra interdum nisl. Sed dapibus dui quam, a blandit nisl mattis vitae. Aenean tristique commodo magna. Vivamus eu odio a nibh
-     scelerisque blandit ut nec mi.
-
-     Sed dignissim orci et arcu venenatis, eget ultricies massa sollicitudin. Maecenas eget metus id leo mattis molestie at sed velit. Nunc
-     sed ultricies tortor. Integer convallis felis leo, id pharetra magna sodales sit amet. Morbi faucibus purus non sapien commodo, ac
-     sodales orci tempus. Phasellus vehicula pellentesque ex, eget viverra ante mattis nec. Proin dictum lacinia lectus eu auctor. Curabitur
-     congue dignissim diam eget placerat. Vivamus eget ante quis neque molestie finibus ut et dui. Mauris tincidunt ac neque sit amet
-     sollicitudin. Nam ac faucibus leo. Maecenas porta non nibh sit amet eleifend. Aliquam at diam tincidunt justo rutrum condimentum varius
-     eget lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-     Etiam pellentesque ligula sed ullamcorper interdum. Aliquam erat volutpat. Maecenas blandit felis quis imperdiet luctus. Orci varius
-     natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam convallis leo ut tincidunt vehicula. Nam feugiat
-     nibh vitae lacus tincidunt, vitae pretium felis ullamcorper. Ut tincidunt sodales neque quis egestas. Nam posuere, nulla non hendrerit
-     eleifend, risus erat interdum erat, ut iaculis enim arcu eu diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci
-     varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed luctus sagittis justo et gravida. Pellentesque
-     ipsum sem, scelerisque eget libero vitae, pellentesque aliquet nulla. Pellentesque ac urna vulputate, tempus velit vel, dapibus ligula.
-
-     Aenean feugiat risus id maximus ullamcorper. Pellentesque eu neque ac lacus vulputate mollis id vel magna. Vestibulum dapibus nibh
-     vitae turpis congue viverra. Nullam volutpat diam vel nisl ultrices, vitae volutpat ante luctus. Aenean sed dolor quam. Maecenas
-     pellentesque nibh ante, a lacinia diam pellentesque et. Praesent ac ante id leo sollicitudin mollis. Etiam nec arcu nunc.
-
-     Curabitur dictum pretium tellus, et convallis libero ornare eu. Fusce bibendum, leo sollicitudin rhoncus suscipit, ligula leo facilisis
-     lorem, non lobortis ex nunc vitae purus. Suspendisse potenti. Morbi vulputate maximus justo hendrerit tempus. Suspendisse potenti. In
-     gravida tellus finibus, dapibus enim finibus, tristique augue. Aliquam erat volutpat. Nullam lacinia, urna in aliquet maximus, ipsum
-     lectus sagittis erat, eu ornare libero lorem convallis orci. Mauris eu egestas nulla. Pellentesque tincidunt finibus justo.
-     Pellentesque maximus sapien neque, eu convallis nulla facilisis non. Cras orci erat, tempus sit amet dui sed, feugiat feugiat risus.
-     Fusce rhoncus, magna vitae vestibulum posuere, elit augue dapibus augue, in porta quam ipsum sit amet dolor. Integer mattis neque non
-     mauris egestas hendrerit in quis elit. Pellentesque iaculis, eros vitae hendrerit lobortis, dolor neque rhoncus est, id egestas sapien
-     quam ut justo. Phasellus consequat, turpis a aliquam vestibulum, neque orci tempus nulla, vel ornare sapien ex sed lacus.</p>
 </div>
 
 <br>
