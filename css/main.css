@@ -36,8 +36,11 @@ footer {
   margin-top: 15px;
 }
 
-a {
+footer a {
   color: #eefff2;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -65,4 +68,17 @@ img {
 .fin {
   font-weight: bolder;
   color: #393939;
+}
+
+div ul li a {
+  color: rgb(89, 89, 89);
+}
+
+.color {
+  background-color: #ffc21d;
+  color: #eefff2;
+}
+
+.tab-content {
+  padding-top: 10px;
 }

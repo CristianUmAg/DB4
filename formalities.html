@@ -63,76 +63,107 @@
 
 <div class="container">
 
-  <div class="table-responsive">
-    <table class="table">
-      <thead class="bg-warning">
-      <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
-      <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
-      </thead>
-      <tbody class="table-warning">
-      <tr>
-        <td>Acta de Nacimiento</td>
-        <td>Registro de Horas</td>
-        <td>Acta de Nacimiento</td>
-        <td>Registro de Horas</td>
-        <td>Acta de Nacimiento</td>
-        <td>Registro de Horas</td>
-        <td>Acta de Nacimiento</td>
-        <td>Registro de Horas</td>
-        <td>Acta de Nacimiento</td>
-        <td>Registro de Horas</td>
-        <td>Acta de Nacimiento</td>
-        <td>Registro de Horas</td>
-        <td>Acta de Nacimiento</td>
-        <td>Registro de Horas</td>
-      </tr>
-      <tr>
-        <td>Identificación</td>
-        <td>Comprobante de practicas</td>
-        <td>Identificación</td>
-        <td>Comprobante de practicas</td>
-        <td>Identificación</td>
-        <td>Comprobante de practicas</td>
-        <td>Identificación</td>
-        <td>Comprobante de practicas</td>
-        <td>Identificación</td>
-        <td>Comprobante de practicas</td>
-        <td>Identificación</td>
-        <td>Comprobante de practicas</td>
-        <td>Identificación</td>
-        <td>Comprobante de practicas</td>
-      </tr>
-      <tr>
-        <td>CURP</td>
-        <td>Carta de registro de desempeño</td>
-        <td>CURP</td>
-        <td>Carta de registro de desempeño</td>
-        <td>CURP</td>
-        <td>Carta de registro de desempeño</td>
-        <td>CURP</td>
-        <td>Carta de registro de desempeño</td>
-        <td>CURP</td>
-        <td>Carta de registro de desempeño</td>
-        <td>CURP</td>
-        <td>Carta de registro de desempeño</td>
-        <td>CURP</td>
-        <td>Carta de registro de desempeño</td>
-      </tr>
-      </tbody>
-    </table>
+  <ul class="nav nav-pills"
+      id="myTab"
+      role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active"
+         id="tramite-tab"
+         data-toggle="pill"
+         href="#tramite"
+         role="tab"
+         aria-controls="tramite"
+         aria-selected="true"> Tramites </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"
+         id="documento-tab"
+         data-toggle="pill"
+         href="#documento"
+         role="tab"
+         aria-controls="documento"
+         aria-selected="true"> Documentos </a>
+    </li>
+  </ul>
+
+  <div class="tab-content"
+       id="myTabContent">
+    <div class="tab-pane fade show active"
+         id="tramite"
+         role="tabpanel"
+         aria-labelledby="tramite-tab">
+      <div class="table-responsive">
+        <table class="table">
+          <thead class="bg-warning">
+          <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
+          <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
+          <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
+          <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
+          <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
+          <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
+          <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
+          <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
+          <th><span class="oi oi-document"></span> Documentos de Ingreso al Servicio Social</th>
+          <th><span class="oi oi-document"></span> Documentos de Egreso al Servicio Social</th>
+          </thead>
+          <tbody class="table-warning">
+          <tr>
+            <td>Acta de Nacimiento</td>
+            <td>Registro de Horas</td>
+            <td>Acta de Nacimiento</td>
+            <td>Registro de Horas</td>
+            <td>Acta de Nacimiento</td>
+            <td>Registro de Horas</td>
+            <td>Acta de Nacimiento</td>
+            <td>Registro de Horas</td>
+            <td>Acta de Nacimiento</td>
+            <td>Registro de Horas</td>
+          </tr>
+          <tr>
+            <td>Identificación</td>
+            <td>Comprobante de practicas</td>
+            <td>Identificación</td>
+            <td>Comprobante de practicas</td>
+            <td>Identificación</td>
+            <td>Comprobante de practicas</td>
+            <td>Identificación</td>
+            <td>Comprobante de practicas</td>
+            <td>Identificación</td>
+            <td>Comprobante de practicas</td>
+          </tr>
+          <tr>
+            <td>CURP</td>
+            <td>Carta de registro de desempeño</td>
+            <td>CURP</td>
+            <td>Carta de registro de desempeño</td>
+            <td>CURP</td>
+            <td>Carta de registro de desempeño</td>
+            <td>CURP</td>
+            <td>Carta de registro de desempeño</td>
+            <td>CURP</td>
+            <td>Carta de registro de desempeño</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="tab-pane fade"
+         id="documento"
+         role="tabpanel"
+         aria-labelledby="documento-tab">
+      <div class="d-flex justify-content-between">
+        <div class="card">
+          <div class="card-header color">Documentos Importantes</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Documentos Especificos</li>
+            <li class="list-group-item">Documentos Opcionales</li>
+            <li class="list-group-item">Documentos No Esenciales</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
+
 
 </div>
 
