@@ -45,10 +45,12 @@
   </div>
 </nav>
 
+<!-- Jumbotron -->
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">Servicio Social ENP 6</h1>
     <p class="lead">Esta es mi pagína de prueba con Bootstrap 4 :))</p>
+    <!-- Breadcrumb -->
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item active"
@@ -80,6 +82,7 @@
 
   <br>
 
+  <!-- Collapse -->
   <div class="d-flex flex-wrap justify-content-center">
     <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4">
       <button class="btn btn-primary btn-block colapsar"
@@ -130,7 +133,7 @@
   </div>
 
   <br>
-  <!-- Lista de "productos" -->
+  <!-- Lista de "productos"/Cards -->
   <h3>Cosas utiles para mi Servicio Social</h3>
   <div class="d-flex flex-wrap">
     <div class="card card-body col-12 tarjeta">
@@ -265,8 +268,63 @@
   </div>
 </div>
 
+<div class="container">
+  <button type="button"
+          class="btn btn-block btn-outline-success"
+          data-toggle="modal"
+          data-target="#contacto">Contactanos
+  </button>
+</div>
+
 <br>
 
+<!-- Modal -->
+<div class="modal fade"
+     id="contacto"
+     tabindex="-1"
+     role="dialog"
+     aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog"
+       role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"
+            id="exampleModalLabel">Contacta con Nosotros</h5>
+        <button type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name"
+                   class="col-form-label">Tu Correo:</label>
+            <input type="text"
+                   class="form-control"
+                   id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text"
+                   class="col-form-label">Mensaje:</label>
+            <textarea class="form-control"
+                      id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button"
+                class="btn btn-success">Enviar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
 <footer>
   <div class="d-flex flex-wrap">
     <div class="col-xs-12 col-sm-12 col-md-4 col-xl-4 text-center">
