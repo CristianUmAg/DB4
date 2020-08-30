@@ -7,6 +7,7 @@
 .btn {
   background-color: #ffc21d;
   color: #393939;
+  text-decoration: none;
 }
 
 .btn-primary {
@@ -81,4 +82,21 @@ div ul li a {
 
 .tab-content {
   padding-top: 10px;
+}
+
+#expectativas, #objetivos, #mejora {
+  padding-top: 15px;
+}
+
+.colapsar {
+  margin-top: 10px;
+}
+
+.sinF {
+  background-color: #c5c6d7;
+}
+
+button {
+  outline: none;
+  text-decoration: none;
 }
