@@ -1,0 +1,101 @@
+.jumbotron {
+  background-color: #098ED0;
+  color: #eefff2;
+  margin-top: 55px;
+  margin-bottom: 0; }
+
+.btn-primary {
+  background-color: #e3b024;
+  color: #393939;
+  text-decoration: none; }
+
+.btn-primary {
+  border-color: #393939; }
+
+.btn-outline-primary {
+  background-color: #eefff2;
+  border-color: #393939;
+  color: #393939; }
+
+.btn-outline-primary:hover {
+  background-color: #e3b024;
+  border-color: #393939;
+  color: #eefff2; }
+
+.tarjeta {
+  margin: 10px; }
+
+footer {
+  background-color: #098ED0;
+  color: #eefff2;
+  padding: 10px 10px 0 10px;
+  margin-top: 15px;
+  margin-bottom: 0; }
+
+footer a {
+  color: #eefff2; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  color: #e3b024;
+  text-decoration: none; }
+
+nav a {
+  color: #393939; }
+
+.footer-address-icon {
+  padding-right: 10px; }
+
+textarea {
+  resize: none; }
+
+img {
+  padding: 10px; }
+
+.fin {
+  font-weight: bolder;
+  color: #393939; }
+
+div ul li a {
+  color: #595959; }
+
+.color {
+  background-color: #e3b024;
+  color: #eefff2; }
+
+.tab-content {
+  padding-top: 10px; }
+
+#expectativas, #objetivos, #mejora {
+  padding-top: 15px; }
+
+.colapsar {
+  margin-top: 10px;
+  margin-bottom: 0; }
+
+.colapsar:hover {
+  background-color: #dc143c;
+  border-color: #dc143c;
+  border-style: solid;
+  border-width: 2px;
+  color: #eefff2; }
+
+.sinF {
+  background-color: #eefff2; }
+
+button {
+  outline: none;
+  text-decoration: none; }
+
+.verde {
+  background-color: #409b1f;
+  color: #eefff2; }
+
+.verde:hover {
+  background-color: #eefff2;
+  border-color: #409b1f;
+  border-style: solid;
+  border-width: 2px;
+  color: #409b1f; }
