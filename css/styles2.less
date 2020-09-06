@@ -1,0 +1,135 @@
+@yellow: #e3b024;
+@blue: #098ED0;
+@grey: #393939;
+@white: #eefff2;
+@verde: #409b1f;
+@rojo: #dc143c;
+
+.margenes (@top: 0, @bottom: 0) {
+  margin-top: @top;
+  margin-bottom: @bottom;
+}
+
+.jumbotron {
+  background-color: #098ED0;
+  color: #eefff2;
+  .margenes(55px, 0)
+}
+
+.btn-primary {
+  background-color: @yellow;
+  color: @grey;
+  text-decoration: none;
+}
+
+.btn-primary {
+  border-color: @grey;
+}
+
+.btn-outline-primary {
+  background-color: @white;
+  border-color: @grey;
+  color: @grey;
+}
+
+.btn-outline-primary:hover {
+  background-color: @yellow;
+  border-color: @grey;
+  color: @white;
+}
+
+.tarjeta {
+  margin: 10px;
+}
+
+footer {
+  background-color: #098ED0;
+  color: #eefff2;
+  padding: 10px 10px 0 10px;
+  .margenes(15px, 0)
+}
+
+footer a {
+  color: @white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: @yellow;
+  text-decoration: none;
+}
+
+nav a {
+  color: @grey;
+}
+
+.footer-address-icon {
+  padding-right: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+img {
+  padding: 10px;
+}
+
+.fin {
+  font-weight: bolder;
+  color: @grey;
+}
+
+div ul li a {
+  color: rgb(89, 89, 89);
+}
+
+.color {
+  background-color: @yellow;
+  color: @white;
+}
+
+.tab-content {
+  padding-top: 10px;
+}
+
+#expectativas, #objetivos, #mejora {
+  padding-top: 15px;
+}
+
+.colapsar {
+  .margenes(10px, 0)
+}
+
+.colapsar:hover {
+  background-color: @rojo;
+  border-color: @rojo;
+  border-style: solid;
+  border-width: 2px;
+  color: @white;
+}
+
+.sinF {
+  background-color: @white;
+}
+
+button {
+  outline: none;
+  text-decoration: none;
+}
+
+.verde {
+  background-color: @verde;
+  color: @white;
+}
+
+.verde:hover {
+  background-color: @white;
+  border-color: @verde;
+  border-style: solid;
+  border-width: 2px;
+  color: @verde;
+}

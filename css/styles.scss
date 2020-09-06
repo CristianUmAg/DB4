@@ -10,6 +10,27 @@ $rojo: #dc143c;
   margin-bottom: $bottom;
 }
 
+@mixin padtb($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+
+@mixin padrl($right, $left) {
+  padding-right: $right;
+  padding-left: $left;
+}
+
+@mixin botInfo($color1, $color2) {
+  background-color: $color1;
+  color: $color2;
+}
+
+@mixin bordes($tam, $tipo, $color) {
+  border-width: $tam;
+  border-style: $tipo;
+  border-color: $color;
+}
+
 .jumbotron {
   background-color: $blue;
   color: $white;
@@ -45,8 +66,9 @@ $rojo: #dc143c;
 footer {
   background-color: $blue;
   color: $white;
-  padding: 10px 10px 0 10px;
-  @include margenes(15px, 0)
+  @include padtb(10px, 0);
+  @include padrl(10px, 10px);
+  @include margenes(15px, 0);
 }
 
 footer a {
@@ -67,7 +89,7 @@ nav a {
 }
 
 .footer-address-icon {
-  padding-right: 10px;
+  @include padrl(10px, 0);
 }
 
 textarea {
@@ -97,11 +119,11 @@ div ul li a {
 }
 
 #expectativas, #objetivos, #mejora {
-  padding-top: 15px;
+  @include padtb(15px, 0);
 }
 
 .colapsar {
-  @include margenes(10px, 0)
+  @include margenes(10px, 0);
 }
 
 .colapsar:hover {
@@ -132,4 +154,9 @@ button {
   border-style: solid;
   border-width: 2px;
   color: $verde;
+}
+
+.infoMas:hover {
+  @include botInfo($white, $rojo);
+  @include bordes(1px, solid, $rojo);
 }
