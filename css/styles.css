@@ -2,7 +2,7 @@
   background-color: #098ED0;
   color: #eefff2;
   margin-top: 55px;
-  margin-bottom: 0; }
+  margin-bottom: 20px; }
 
 .btn-primary {
   background-color: #e3b024;
@@ -100,9 +100,9 @@ button {
 
 .verde:hover {
   background-color: #eefff2;
-  border-color: #409b1f;
+  border-width: 1px;
   border-style: solid;
-  border-width: 2px;
+  border-color: #409b1f;
   color: #409b1f; }
 
 .infoMas:hover {
